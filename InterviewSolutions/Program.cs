@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace InterviewSolutions
 {
@@ -18,6 +19,8 @@ namespace InterviewSolutions
             Solution10 solution10 = new Solution10();
             Solution11 solution11 = new Solution11();
             Solution12 solution12 = new Solution12();
+            Solution13 solution13 = new Solution13();
+            Solution14 solution14 = new Solution14();
 
             Console.WriteLine(solution1.solution("Sat", 38));
             Console.WriteLine(solution2.solution(new int[] { 0, 5, 4, 4, 5, 12 }));
@@ -31,6 +34,8 @@ namespace InterviewSolutions
             Console.WriteLine(solution10.solution(new int[] { 1, 4, -1, 3, 2 }));
             Console.WriteLine(solution11.solution(new int[] { 3, 4, 3, 0, 2, 2, 3, 0, 0 }));
             Console.WriteLine(solution12.solution(123456));
+            Console.WriteLine(solution13.getMaxDeletions("URRDRL"));
+            Console.WriteLine(solution14.getMinimumMoves(new List<int> { 3, 1, 2, 3 }));
 
             Console.ReadLine();
         }
