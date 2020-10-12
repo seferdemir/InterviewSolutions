@@ -69,7 +69,7 @@ namespace InterviewSolutions
 
             long truckSize = Convert.ToInt64(Console.ReadLine().Trim());
 
-            long result = Result.getMaxUnits(boxes, unitsPerBox, truckSize);
+            long result = Result15.getMaxUnits(boxes, unitsPerBox, truckSize);
 
             textWriter.WriteLine(result);
 
